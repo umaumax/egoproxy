@@ -13,6 +13,8 @@ import (
 var (
 	verboseFlag bool
 	port        string
+
+	postFlagParseFuncs []func()
 )
 
 func init() {
@@ -22,6 +24,9 @@ func init() {
 
 func main() {
 	flag.Parse()
+	for _, f := range postFlagParseFuncs {
+		f()
+	}
 	proxy := goproxy.NewProxyHttpServer()
 	proxy.Verbose = verboseFlag
 
