@@ -23,4 +23,4 @@ Usage of egoproxy:
     	should every proxy request be logged to stdout (default true)
 ```
 
-`-ieproxy`: windows only
+`-ieproxy`: windows only (WARN: unverified, TODO: verify this option)
