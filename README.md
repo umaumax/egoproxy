@@ -1,6 +1,6 @@
 # egoproxy
 
-tcp proxy tool written in golang
+http proxy tool written in golang
 
 ## How to install
 ``` bash
