@@ -1,19 +1,19 @@
 # egoproxy
 
-easy go proxy
+tcp proxy tool written in golang
 
 ## How to install
-```
-go get -u github.com/umaumax/egoproxy
+``` bash
+go install github.com/umaumax/egoproxy@latest
 ```
 
 ## How to run
-```
+``` bash
 egoproxy
 ```
 
 ## help
-```
+``` bash
 Usage of egoproxy:
   -ieproxy
     	detect the proxy settings on Windows platform (default true)
